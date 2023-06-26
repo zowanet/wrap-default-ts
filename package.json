@@ -1,0 +1,34 @@
+{
+	"author": {
+		"name": "zowanet",
+		"url": "https://github.com/zowanet"
+	},
+	"bugs": {
+		"url": "https://github.com/zowanet/wrap-default-ts/issues"
+	},
+	"contributors": [],
+	"description": "",
+	"devDependencies": {
+		"@types/node": "20.3.1",
+		"typescript": "5.1.3"
+	},
+	"engines": {
+		"node": ">=20.3.1 <21",
+		"npm": ">=9.6.7 <10"
+	},
+	"files": [
+		"lib/**/*.d.mts",
+		"lib/**/*.mjs",
+		"UNLICENSE"
+	],
+	"homepage": "https://github.com/zowanet/wrap-default-ts",
+	"license": "Unlicense",
+	"main": "lib/main.mjs",
+	"name": "@zowanet/wrap-default",
+	"repository": "github:zowanet/wrap-default-ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"types": "lib/main.d.mts",
+	"version": "1.0.0"
+}
